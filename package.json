@@ -1,0 +1,12 @@
+{
+  "name": "your-app",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "request-promise": "*",
+    "electron-prebuilt": "*"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.0.0"
+  }
+}
