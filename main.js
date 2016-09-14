@@ -22,7 +22,7 @@ app.on('ready', function() {
   // develop
   var subpy = require('child_process').spawn('python',['./hello.py']);
 
-  // packing
+  // packaging
   // var subpy = require('child_process').spawn('./dist/hello/hello');
 
   var rq = require('request-promise');
